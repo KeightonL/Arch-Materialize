@@ -1,0 +1,161 @@
+nav.navbar-fixed {
+    position: fixed;
+}
+@media (min-width:992px){
+    nav .brand-logo {
+        left: 15px;
+    }
+}
+
+div.message {
+	display: none;
+	background-color: #ee6e73;
+    padding: 15px;
+    color: #fff;
+    position: fixed;
+    top: 30%;
+    z-index: 2;
+    margin: 0 auto;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+}
+
+div.message-display {
+	display: inherit;
+}
+
+li.scroll a:hover {
+background: transparent;
+transform: scale(1.2);
+}
+
+li.nav-link a:hover {
+background: transparent;
+}
+
+button.waves-effect {
+    bottom: 8px;
+}
+
+@media (max-width:468px) {
+	.card.small {
+    height: 400px;
+	}
+}
+.slider {
+height: 50vh !important;
+}
+
+.slider .indicators {
+z-index: 9999;
+bottom: 30px;
+}
+
+.slider .slides {
+	height: 50vh !important;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #ee6e73;
+}
+
+.slider .indicators {
+    z-index: 2;
+}
+
+.slider .indicators .indicator-item {
+    height: 22px;
+    width: 22px;
+}
+
+.header {
+    text-align: center;
+    color: #ee6e73;
+}
+
+.counter {
+  display: table-cell;
+  margin: 1.5%;
+  font-size: 40px;
+  background-color: #FF6F6F;
+  color: #fff;
+  width:200px;
+  border-radius: 50%;
+  height:200px;
+  vertical-align: middle;
+}
+
+#counters {
+  max-width:800px;
+  margin: 100px auto 0;
+  text-align: center;
+  display: table;
+}
+
+@media (max-width:595px) {
+    .counter {
+        display: block;
+        font-size: 35px;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width:440px) {
+    .waves-effect {
+        font-size: 1rem;
+        height: 37px;
+    }
+    nav ul a {
+        padding: 0 12px;
+    }
+}
+
+.h3 {
+    font-size: 2.25rem;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+    color: #ee6e73;;
+}
+
+/*TABLE STYLES*/
+div.doc-table {
+	font-family: 'Proxima N W01 Light';
+	}
+div.doc-table table {
+	    background: #f5f5f5;
+	}	
+div.doc-table h1,div.doc-table h2,div.doc-table h3,div.doc-table h4,div.doc-table p {
+	text-align:center;
+	 color: #26a69a;
+	}
+div.doc-table h2 {
+	margin: 20;
+	padding: 15px;
+    font-family: 'Proxima N W01 Light';
+    color: #26a69a;
+	font-size: 60px;
+	}
+div.doc-table p {
+	font-size: 18px;
+	margin: 20;
+	padding-bottom: 25px;
+	}
+div.doc-table a {
+    color: #26a69a;
+}
+div.doc-table table thead tr th {
+	    color: #000;
+		font-size: 25px;
+	}
+div.doc-table table tbody tr td {
+	color: #000;
+	font-size: 22px;
+	padding:20px;
+	}
+div.doc-table tr a:hover {
+		color:#cc3057;
+		text-decoration: none;
+	}
+	
